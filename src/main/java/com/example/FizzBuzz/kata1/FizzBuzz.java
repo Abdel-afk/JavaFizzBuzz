@@ -5,4 +5,8 @@ public class FizzBuzz {
     public String execute(Integer num){
         return "hola";
     }
+
+    public String getFizzOrNumber(int i) {
+        return "Fizz";
+    }
 }

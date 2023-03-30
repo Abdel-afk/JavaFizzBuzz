@@ -12,6 +12,9 @@ class FizzBuzzTest {
     }
 
     @Test
-    void execute() {
+    void testGetFizzOrNumberReturnsFizz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.getFizzOrNumber(9);
+        assertEquals("Fizz", result);
     }
 }
