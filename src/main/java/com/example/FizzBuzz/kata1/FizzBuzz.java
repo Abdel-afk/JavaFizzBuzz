@@ -21,4 +21,6 @@ public class FizzBuzz {
             return String.valueOf(number);
         }
     }
+
+
 }
