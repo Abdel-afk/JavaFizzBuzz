@@ -17,4 +17,19 @@ class FizzBuzzTest {
         String result = fizzBuzz.getFizzOrNumber(9);
         assertEquals("Fizz", result);
     }
+
+    @Test
+    void getFizzOrBuzzOrNumber() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.getFizzOrBuzzOrNumber(10);
+        assertEquals("Buzz", result);
+    }
+
+
+    @Test
+    void testGetFizzOrBuzzOrNumberReturnsFizzBuzz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.getFizzOrBuzzOrNumber(15);
+        assertEquals("FizzBuzz", result);
+    }
 }
